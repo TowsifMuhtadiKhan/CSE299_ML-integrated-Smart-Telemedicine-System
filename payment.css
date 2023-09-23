@@ -1,0 +1,36 @@
+
+.Wrapper{
+    width:60%;
+    display:grid;
+    margin:20px auto;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 20px;
+    justify-content: center;
+    border: solid 5px;
+    border-color: #194F94;
+    border-radius: 10px;
+
+    
+ } 
+ .text{
+     color:#194F94;
+     font-size: 200%;
+ } 
+ .button
+ {
+     width:40%;
+     font-size: 20px;
+     margin-top: 5px;
+     background-color: #4CC417;
+     align-items: center;
+     text-align: center;
+     border-radius: 15px;
+     padding:10px;
+     border: 1px transparent solid;
+     color:white;	
+     margin-bottom: 3%;
+   
+ }

@@ -1,0 +1,319 @@
+<?php include("doctor_server.php");?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VHSBD</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="cancerpre.css">
+	<script src="https://kit.fontawesome.com/398de335e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="Header">
+		<div class="logo">
+			<img class="logopic" 
+			src ="logo.png" alt="My sample image" height="100">
+			
+		</div>
+		<div class ="navbar">
+			<nav>
+			<ul class="navlinks">
+     	    <li><a class ="" href="homepage.php">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+		    <li><a href="Services.html">Services</a></li>
+     	    <li><a href="covid.html">Covid-19 </a></li>
+            <li><a class ="" href="account.html"><i class="far fa-user-circle"></i></a></li>
+     </ul>	
+	</nav>
+	</div>
+	</div>
+	<form action="doctor_login.php" method="POST">
+	<div class="mainbody">
+		<div class="container">
+			<p class="login">Cancer Predictor</p>
+			<div class="centerbox">
+                <p class="writing">Please enter the required data for Cancer Prediction</p>
+				<div class="cb">
+				<p class="boxinfo">Age</p>
+				<input type="text" name ="username1" class ="select" placeholder="enter your age">
+				<br>
+				<p class="Type">Gender</p>
+                 <select class ="select" name="gender" required>
+                  <option disabled selected>Choose Gender</option>
+      		      <option value="male">Male</option>
+                  <option value="female">Female</option>
+      	        </select>
+                <br>
+                <p class="Type">Air pollution that each patient is exposed to</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Severness of dust allergy</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Occupational Hazards</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Genetic Risk</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+      	        </select>
+                  <p class="Type">Chronic lung disorder</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Balanced Diet</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+      	        </select>
+                  <p class="Type">Obesity level</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+      	        </select>
+                  <p class="Type">Smoking habits</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Smoking habits cont'd</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Chest pain</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-9)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+      	        </select>
+                  <p class="Type">Coughing of Blood</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-9)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+      	        </select>
+                  <p class="Type">Fatigue level</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-9)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+      	        </select>
+                  <p class="Type">Significant weight loss</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Experiences of shortness of breath</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-9)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+      	        </select>
+                  <p class="Type">wheezing level</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Swallowing difficulty</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Clubbing of fingers</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-9)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+      	        </select>
+                  <p class="Type">Frequent cold</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+      	        </select>
+                  <p class="Type">Dry cough</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-7)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+      	        </select>
+                  <p class="Type">Snoring habits</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                  <p class="Type">Alcohol use</p>
+                 <select class ="select"name="specialization" required>
+                   <option disabled selected>(1-8)</option>
+      		       <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+      	        </select>
+                <br> 
+                <br> 
+                <br> 
+                
+                 <button type = "submit" class="button2" name = "login_user">Predict</button>
+                </div>
+			</div>
+			
+		</div>
+	</div>
+</form>	
+
+</body>
+</html>

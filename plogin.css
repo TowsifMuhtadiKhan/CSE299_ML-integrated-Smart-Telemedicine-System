@@ -1,0 +1,184 @@
+.Header{
+	width:70%;
+	margin:0 auto;
+	display:grid;
+	grid-template-columns: 10% 90%; 
+	margin-bottom: 0px;
+	
+}
+
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	list-style:none;
+	box-sizing: border-box  ;
+}
+nav{
+	
+	background-image: linear-gradient(#194F94 30%,#4383d6);
+	height:100%;
+	width:100%;
+}
+nav ul{
+	float:right;
+	
+
+}
+nav ul li{
+	display:inline-block;
+	line-height: 80px;
+	margin:0 20px;
+	
+	
+}
+nav ul li a{
+	color:white;
+	font-size: 30px;
+	border-radius: 5px;
+	font-family: 'Lato', sans-serif;
+	
+
+}
+a.active,a:hover{
+	background:#0075EA;
+	transition: .5s;
+}
+input{
+	font-size: 15px;
+	padding:12px;
+	width:80%;
+	border-radius: 20px;
+	border: 1.5px solid #daf0ff;
+	padding-left: 20px;
+}
+
+.name{
+	text-align: center;
+	margin:0 auto;
+}
+.logopic{
+	align-items: center;
+}
+.logo{
+	margin:0 auto;
+}
+.mainbody{
+	
+	margin: 0 ;
+	padding: 0px;
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.container{
+	background-color: white;
+	width:45%;
+	margin:0 auto;
+	padding-top: 40px;
+	margin-top: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	padding-bottom: 60px;
+	
+}
+.login{
+	color: #194F94;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+
+}
+.centerbox{
+	width:40%;
+	background-image: linear-gradient(#194F94 30%,#4383d6);
+	margin: 0 auto;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+.boxinfo{
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 5px;
+}
+.cb{
+
+	margin: 0 auto;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+
+}
+.login2{
+	color: #194F94;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+
+}
+.button
+{
+	width:40%;
+	font-size: 20px;
+	margin: 0 auto;
+	background-color: #45b6fe;
+	
+	text-align: center;
+	align-items: center;
+	border-radius: 15px;
+	padding:10px;
+    border: 1px transparent solid;
+	color:white;	
+	margin-top: 20px;
+}
+.button2{
+	width:60%;
+	font-size: 20px;
+	margin: 0 auto;
+	background-color: #45b6fe;
+	text-align: center;
+	align-items: center;
+	border-radius: 15px;
+	padding:5px;
+    border: 1px transparent solid;
+	color:white;
+	margin-top: 10px;	
+}
+.padding{
+	margin-top:  0;	
+}
+.padding2{
+	margin-top:  0;
+	margin-bottom: 10px;
+}
+.forgot{
+	font-size: 16px;
+	color:white;
+	padding-top: 10px;
+}
+i{
+	size:20px;
+}
+.far{
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+} 
+.fa-user-circle{
+    color: white;
+	width: 100%;
+	height: 100%;
+    font-size: 30px;
+    text-align: center;
+
+	}
